@@ -18,13 +18,7 @@ p{
 
 }
 
-
-#content{
-    display: flex;
-    flex-direction: column;
-    
-}
-
+/*css for website favicon*/
 .icon{
     display: flex;
     flex-direction: row;
@@ -36,110 +30,7 @@ p{
     height:50px;
     border-radius: 50%;
 }
-
-#featuredPhoto{
-    display: flex;
-    justify-content: center;
-}
-
-.navBar{
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-   
-}
-
-#projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
-}
-
-.projImgs{
-    position: relative;
-    width: 200px;
-    height: 200px;
-
-}
-
-#projects img{
-    display: block;
-    width: 200px;
-    height: 200px;
-}
-
-
-
-.projImgs:hover > .overlay {
-    opacity: 1;
-    cursor: pointer;  
-}
-
-.text {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: violet;
-  }
-
-.content2{
-    display: flex;
-    flex-direction: row;
-    text-wrap:wrap;
-    gap: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    justify-content: space-between;
-}
-
-
-.footer{
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    align-items:center;
-    gap: 20px;
-    padding-left: 40px;;
-
-}
-
-.btn{
-    width: 35%;
-    height: 30px;
-    background-color:white;
-    color:black;
-    font-size: 15px;
-    border-radius: 15%;;
-    border:none;
-}
-
-.btn:hover{
-    background-color:rgb(40, 137, 207);
-    color: whitesmoke;
-    cursor: pointer;
-}
-
+/*CSS for the logo and menu/navigation block*/
 .menu{
     float:left;
     height: 70px;
@@ -170,6 +61,119 @@ ul li a:hover{
 
 }
 
+.navBar{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+   
+}
+
+/*CSS for the content of the site including images*/
+#content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#featuredPhoto{
+    display: flex;
+    justify-content: center;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.projImgs{
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+}
+
+#projects img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+/*css for hovering images in previous projects that shows a bried description of the said project*/
+.projImgs:hover > .overlay {
+    opacity: 1;
+    cursor: pointer;  
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: violet;
+  }
+
+
+/*css for the other half of the content*/
+.content2{
+    display: flex;
+    flex-direction: row;
+    text-wrap:wrap;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+/*css of the footer and the back to top button*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items:center;
+    gap: 20px;
+    padding-left: 40px;;
+
+}
+
+.btn{
+    width: 35%;
+    height: 30px;
+    background-color:white;
+    color:black;
+    font-size: 15px;
+    border-radius: 15%;;
+    border:none;
+}
+
+.btn:hover{
+    background-color:rgb(40, 137, 207);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+/*image of the author*/
 #author{
     width: auto;
     height: 100px;

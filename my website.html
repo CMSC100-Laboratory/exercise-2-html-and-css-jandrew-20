@@ -37,11 +37,11 @@
             
             <h3>Featured Photo</h3>
             <div id ="featuredPhoto" >
-                
                 <img src="OIP.jpg">
             </div>
 
-                <h3>Previous projects</h3> 
+            <h3>Previous projects</h3> 
+            <!--used div and classes to create overlay hover effect for each image with projImg class-->
             <div id="projects">
                 <div class="projImgs">
                     <img src ="proj1.png">
@@ -63,6 +63,8 @@
                 </div>
             </div>
         </div>
+        <!--separated this content from previous content to so that its flexbox is not affected by the previous ones-->
+        <!--the flex box now adheres to row direction, unlike if it was part of .content-->
         <div class="content2">
             <div class="nestedContent" id ="skills">
                 <h3>Skills</h3>
@@ -87,7 +89,7 @@
         </div>
                 
             
-        <!-- footer-->
+        <!--simple footer content with icon and basic info about the author-->
         <div class="footer">
             <div class="icon">
                 <img id="author" src="author.jpg" >
